@@ -1,4 +1,4 @@
-<h1><a href="victoralvesfarias.github.io/Terminal-Jornal/">Terminal-Jornal</a></h1>
+<h1><a href="https://victoralvesfarias.github.io/Terminal-Jornal/">Terminal-Jornal</a></h1>
     <p>
         "Hello Sr! Seja bem vindo novamente ao seu terminal, hoje a cidade de New Vegas possui novas noticias para você! O caso mais falado dos dias atuais, é sobre o meteorito que vem causando consequencias em toda vida da região, entenda em The New Vegas Times!"
     </p>
