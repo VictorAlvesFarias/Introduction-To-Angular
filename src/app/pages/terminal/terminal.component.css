@@ -1,0 +1,53 @@
+/* @import url(../../app.component.css); */
+:host {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.terminal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+.terminal-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+
+#terminal-waring {
+    opacity: 0;
+    color:rgb(32, 224, 115) ;
+    margin-bottom: 1vw;
+    transition: 0.1s;
+}
+
+.terminal-menu {
+    width: 100%;
+}
+
+.terminal-menu-option {
+    margin: 4vh 0 ;
+}
+
+.terminal-menu-option:hover {
+    background-color: #19693074;
+}
+
+@media(max-width:750px) {
+    .terminal {
+        width: 90%;
+    }
+}

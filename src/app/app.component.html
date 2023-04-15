@@ -1,0 +1,6 @@
+<main> 
+    <app-terminal (loadingJornal)="loadingJornal()" [ngStyle]="terminal" ></app-terminal>
+    <app-loading-screen [porcentage]="porcentage" [ngStyle]="loadingScreen"   ></app-loading-screen>
+    <app-jornal  (returnTerminal)="returnTerminal()" [ngStyle]="jornal"  ></app-jornal>
+</main> 
+<router-outlet></router-outlet>

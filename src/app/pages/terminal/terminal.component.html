@@ -1,0 +1,14 @@
+<div id="terminal" class="terminal">
+    <div class="terminal-infos">
+        <h1>ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM <br>COPYRIGHT 2075-2077 ROBCO INDUSTRIES  <br>-Server 6-</h1>
+    </div>
+    <p [ngStyle]="waring" id="terminal-waring">You dont have acess.</p>
+    <div class="terminal-menu">
+        <p>Hello Administrator</p>
+        <span>===================</span>
+        <p (click)="load()" class="terminal-menu-option">> New Vegas Jornal ( New! )</p>
+        <p (click)="terminalWaring()"  class="terminal-menu-option waring-option">> Notes</p>
+        <p (click)="terminalWaring()" class="terminal-menu-option waring-option">> Massages</p>
+        <p (click)="terminalWaring()" class="terminal-menu-option waring-option">> Terminal Configs</p>
+    </div>
+</div>

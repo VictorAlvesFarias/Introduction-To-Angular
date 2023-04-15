@@ -1,0 +1,29 @@
+/* @import url(index.css);
+ */
+
+ :host {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#loading-screen {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0.2;
+    transform: 1s;
+}
+
+#loading-porcentage {
+    font-size: 1vw;
+}
+
+#loading-content {
+    width: 0%;
+    height: 1vh;
+    background-color: rgb(32, 224, 115);
+}
